@@ -8,9 +8,9 @@ modules:
     type: com.sap.application.content
     path: onboarding
     requires:
-      - name: YCPSLCLFLAB001-Workflow
+      - name: wm_workflow
         parameters:
           content-target: true
 resources:
-  - name: YCPSLCLFLAB001-Workflow
+  - name: wm_workflow
     type: org.cloudfoundry.existing-service
